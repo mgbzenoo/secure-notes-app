@@ -38,3 +38,23 @@ async function decryptNote() {
     output.textContent = "Decryption failed. Wrong password?";
   }
 }
+#digital-tools {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.product-card h3 {
+  margin-top: 0;
+}
+
+.product-card ul {
+  padding-left: 1.2rem;
+}
